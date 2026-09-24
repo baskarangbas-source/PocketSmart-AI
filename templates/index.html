@@ -36,15 +36,17 @@
       </form>
     </section>
 
-    {% if recommendations %}
-    <section class="card">
-      <h2>Recommended Budget Allocation</h2>
-      <p><strong>Category:</strong> {{ category }}</p>
-      {% for item in recommendations %}
-      <div class="row">
-        <span>{{ item.name }}</span>
-        <strong>₹ {{ "%.2f"|format(item.amount) }}</strong>
-      </div>
+    {% for item in recommendations %}
+<div class="row">
+  <span>{{ item.name }}</span>
+  <strong>₹ {{ "%.2f"|format(item.amount) }}</strong>
+</div>
+{% endfor %}
+
+<div class="row">
+  <span><strong>Total Budget</strong></span>
+  <strong>₹ {{ "%.2f"|format(budget) }}</strong>
+</div>
       {% endfor %}
     </section>
     {% endif %}

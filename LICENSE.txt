@@ -1,0 +1,6 @@
+PocketSmart AI Educational Demo
+
+Copyright (c) 2026 Baskaran G
+
+Provided for educational and demonstration purposes.
+Do not commit passwords, API keys, tokens, or other confidential information.

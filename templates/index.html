@@ -35,7 +35,7 @@
         <button type="submit">Generate Recommendation</button>
       </form>
     </section>
-
+{% if recommendations %}
     {% for item in recommendations %}
 <div class="row">
   <span>{{ item.name }}</span>

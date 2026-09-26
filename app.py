@@ -88,7 +88,7 @@ async def recommend(request: Request):
         "index.html",
         {
             "request": request,
-            "recommendations": make_recommendations(category, budget, preference)
+            "recommendations": make_recommendations(category, budget, preference),
             "category": category,
             "budget": budget,
             "preference": preference,

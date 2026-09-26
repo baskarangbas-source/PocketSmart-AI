@@ -34,21 +34,21 @@
 
         <button type="submit">Generate Recommendation</button>
       </form>
-    </section>
+    
 {% if recommendations %}
     {% for item in recommendations %}
-<div class="row">
-  <span>{{ item.name }}</span>
-  <strong>₹ {{ "%.2f"|format(item.amount) }}</strong>
-</div>
-{% endfor %}
+    <div class="row">
+        <span>{{ item.name }}</span>
+        <strong>{{ "%.2f"|format(item.amount) }}</strong>
+    </div>
+    {% endfor %}
 
-<div class="row">
-  <span><strong>Total Budget</strong></span>
-  <strong>₹ {{ "%.2f"|format(budget) }}</strong>
-</div>
-
-</section>
+    <div class="row">
+        <span><strong>Total Budget</strong></span>
+        <strong>₹ {{ "%.2f"|format(budget) }}</strong>
+    </div>
+{% endif %}
+  </section>
 
   </main>
 </body>

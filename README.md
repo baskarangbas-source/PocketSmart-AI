@@ -35,3 +35,4 @@ Do not commit API keys or passwords to GitHub.
 ## 🎥 Project Demo
 
 [▶️ Watch PocketSmart AI Demo Video](https://youtu.be/SLkARLTvvD4)
+https://drive.google.com/file/d/1Akh0zh-sjFMgGh5V_BJ8w8CTuNrOesoS/view?usp=drivesdk

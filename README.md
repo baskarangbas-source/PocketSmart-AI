@@ -32,7 +32,5 @@ uvicorn app:app --host 0.0.0.0 --port $PORT
 
 This is an educational/demo implementation prepared for the PocketSmart AI project.
 Do not commit API keys or passwords to GitHub.
-## 🎥 Project Demo
-
-[▶️ Watch PocketSmart AI Demo Video](https://youtu.be/SLkARLTvvD4)
+## 🎥 Project Demo video 
 https://drive.google.com/file/d/1Akh0zh-sjFMgGh5V_BJ8w8CTuNrOesoS/view?usp=drivesdk
